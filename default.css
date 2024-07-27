@@ -14,6 +14,7 @@
   --grad-1:#7dbcff;
 }
 
+
 .container {
   width: 100%;
   padding-left: 15px;
@@ -23,9 +24,18 @@
 }
 
 
-@media (min-width: 1200px) {
-  .container { max-width: 840px; }
+@media (min-width: 1000px) {
+  .container { max-width: 550px; }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.menubar {
+  display: flex;
+}
+
 
 .container {
   width: 100%;
@@ -36,7 +46,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.6;
@@ -51,4 +61,8 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.menubar .container {
+  display: flex;
 }
